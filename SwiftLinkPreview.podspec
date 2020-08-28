@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 	s.license = { :type => "MIT", :file => "LICENSE" }
 	s.author = { "Leonardo Cardoso" => "contact@leocardz.com" }
 	s.homepage = "https://github.com/LeonardoCardoso/SwiftLinkPreview"
-	s.source = { :git => "https://github.com/LeonardoCardoso/SwiftLinkPreview.git", :tag => s.version }
+	s.source = { :git => "https://github.com/hungh261/SwiftLinkPreview.git", :tag => s.version }
 	s.source_files = "Sources/**/*.swift"
 	s.swift_version = '4.2'
 
