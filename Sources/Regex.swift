@@ -105,7 +105,7 @@ class Regex {
     // Return tag pattern
     static func tagPattern(_ tag: String) -> String {
 
-        return "<" + tag + "(.*?)>(.*?)</" + tag + ">"
+        return "<" + tag + "(?>.*?)>(?>.*?)</" + tag + ">"
 
     }
 
